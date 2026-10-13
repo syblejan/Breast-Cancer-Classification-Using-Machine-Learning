@@ -1,0 +1,6 @@
+numpy>=1.26,<3
+pandas>=2,<3
+scikit-learn>=1.5,<2
+imbalanced-learn>=0.12,<1
+matplotlib>=3.8,<4
+jupyter>=1,<2
