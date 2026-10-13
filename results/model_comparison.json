@@ -1,0 +1,38 @@
+{
+  "with_smote": {
+    "test_rows": 171,
+    "accuracy": 0.9532163742690059,
+    "balanced_accuracy": 0.946918808411215,
+    "malignant_recall": 0.921875,
+    "malignant_f1": 0.9365079365079365,
+    "cv_malignant_recall": 0.9248275862068965,
+    "confusion_matrix": [
+      [
+        104,
+        3
+      ],
+      [
+        5,
+        59
+      ]
+    ]
+  },
+  "without_smote": {
+    "test_rows": 171,
+    "accuracy": 0.9415204678362573,
+    "balanced_accuracy": 0.9250146028037383,
+    "malignant_recall": 0.859375,
+    "malignant_f1": 0.9166666666666666,
+    "cv_malignant_recall": 0.9388505747126438,
+    "confusion_matrix": [
+      [
+        106,
+        1
+      ],
+      [
+        9,
+        55
+      ]
+    ]
+  }
+}
